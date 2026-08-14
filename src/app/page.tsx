@@ -5,17 +5,64 @@ export default function Home() {
     <main className="relative flex min-h-[80vh] items-center justify-center overflow-hidden bg-background px-6 py-16">
       {/* Formas fragmentadas decorativas */}
       <div
-        className="absolute -left-24 top-10 h-72 w-72 bg-system-orange-light/20 blur-2xl"
+        className="absolute -left-24 top-10 h-72 w-72 bg-system-orange-light/20 blur-2xl animate-float-1"
         style={{
           clipPath:
             "polygon(20% 0%, 60% 10%, 100% 30%, 85% 70%, 100% 100%, 40% 90%, 10% 100%, 0% 60%, 15% 30%)",
         }}
       />
       <div
-        className="absolute -right-16 bottom-0 h-64 w-64 bg-system-orange-light/15 blur-2xl"
+        className="absolute -right-16 bottom-0 h-64 w-64 bg-system-orange-light/15 blur-2xl animate-float-2"
         style={{
           clipPath:
             "polygon(30% 0%, 70% 5%, 100% 40%, 90% 80%, 60% 100%, 20% 90%, 0% 55%, 10% 20%)",
+        }}
+      />
+      <div
+        className="absolute right-10 top-4 h-32 w-32 bg-system-orange-light/15 blur-xl animate-float-1"
+        style={{
+          clipPath:
+            "polygon(25% 0%, 75% 15%, 100% 60%, 60% 100%, 10% 85%, 0% 35%)",
+          animationDelay: "1.5s",
+        }}
+      />
+      <div
+        className="absolute left-8 bottom-16 h-24 w-24 bg-system-orange-light/20 blur-xl animate-float-2"
+        style={{
+          clipPath:
+            "polygon(30% 0%, 100% 20%, 80% 80%, 40% 100%, 0% 60%)",
+          animationDelay: "3s",
+        }}
+      />
+      <div
+        className="absolute left-1/3 top-0 h-20 w-20 bg-system-orange-light/10 blur-lg animate-float-1"
+        style={{
+          clipPath:
+            "polygon(20% 0%, 80% 10%, 100% 70%, 50% 100%, 0% 50%)",
+          animationDelay: "2.2s",
+        }}
+      />
+      <div
+        className="absolute right-1/4 bottom-8 h-28 w-28 bg-system-orange-light/15 blur-xl animate-float-2"
+        style={{
+          clipPath:
+            "polygon(15% 0%, 85% 10%, 100% 55%, 70% 100%, 20% 90%, 0% 40%)",
+          animationDelay: "0.8s",
+        }}
+      />
+      <div
+        className="absolute left-1/2 top-1/3 h-16 w-16 bg-system-orange-light/10 blur-lg animate-float-1"
+        style={{
+          clipPath: "polygon(25% 0%, 100% 25%, 75% 100%, 0% 70%)",
+          animationDelay: "4s",
+        }}
+      />
+      <div
+        className="absolute right-6 bottom-1/3 h-20 w-20 bg-system-orange-light/15 blur-lg animate-float-2"
+        style={{
+          clipPath:
+            "polygon(30% 0%, 90% 15%, 100% 65%, 55% 100%, 10% 75%, 0% 25%)",
+          animationDelay: "5.2s",
         }}
       />
 
